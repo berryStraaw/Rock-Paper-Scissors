@@ -1,0 +1,15 @@
+*{
+    border:2px solid red;
+}
+
+.root{
+    display:flex;
+    height:1000px;
+    justify-content: center;
+}
+
+.main{
+    width:1500px;
+    height:100%;
+}
+
