@@ -1,15 +1,63 @@
-*{
+/* *{
     border:2px solid red;
+} */
+
+.text{
+font-size:45px;
+font-weight: 700;
+font-family: 'Times New Roman', Times, serif;
+text-align:center;
 }
 
 .root{
     display:flex;
     height:1000px;
     justify-content: center;
+    background-color:rgba(0, 128, 0, 0.39);
 }
 
 .main{
     width:1500px;
     height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:lightgrey;
+    
+}
+.title{
+    font-size:26px;
+}
+.intro{
+    width: 600px;
+}
+.picktext{
+    margin-top:50px;
+
+}
+
+.buttons{
+    margin-top:50px;
+    margin-bottom:50px;
+    width:500px;
+    height:50px;
+    display:flex;
+    justify-content: space-around;
+}
+.btn{
+    width: 100px;
+    border-radius:10px;
+    background-color:lightgreen;
+    border:2px solid green;
+    
+}
+
+.resultbox{
+    margin-top:50px;
+    font-size:36px;
+}
+.resutltext{
+    margin-top:50px;
+    font-size:36px;
 }
 
