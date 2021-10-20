@@ -16,13 +16,13 @@ body{
 
 .root{
     display:flex;
-    height:1000px;
+    height:100vh;
     justify-content: center;
     background-color:rgba(0, 128, 0, 0.39);
 }
 
 .main{
-    width:1500px;
+    width:80vw;
     height:100%;
     display:flex;
     flex-direction:column;
