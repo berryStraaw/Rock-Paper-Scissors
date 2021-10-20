@@ -9,6 +9,11 @@ font-family: 'Times New Roman', Times, serif;
 text-align:center;
 }
 
+body{
+    margin:0;
+    padding:0;
+}
+
 .root{
     display:flex;
     height:1000px;
